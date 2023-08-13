@@ -5,7 +5,7 @@ import { useAddress } from "@thirdweb-dev/react";
 import ActiveCampaigns from "./components/ActiveCampaigns";
 import InactiveCampaigns from "./components/InactiveCampaigns";
 import Footer from "./components/Footer";
-const contractAddress = "0xAfA9c8376d384acE223828730b4594eC1Ef7Ab0F";
+const contractAddress = "0x44d062b25c1dCC46b3456cc9D0C8804aa90Dc8D4";
 const abi = [
   {
     anonymous: false,
@@ -346,4 +346,4 @@ export default function App() {
   );
 }
 
-// https://testnet-zkevm.polygonscan.com/address/0xAfA9c8376d384acE223828730b4594eC1Ef7Ab0F
+// https://zkevm.polygonscan.com/address/0x44d062b25c1dCC46b3456cc9D0C8804aa90Dc8D4
