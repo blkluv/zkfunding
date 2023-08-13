@@ -18,7 +18,7 @@ const router = createBrowserRouter([
 ]);
 const activeChain = {
   chainId: 1442,
-  rpc: ["https://polygon-zkevm-testnet.rpc.thirdweb.com"],
+  rpc: ["https://polygon-zkevm.rpc.thirdweb.com"],
 
   nativeCurrency: {
     decimals: 18,
@@ -36,7 +36,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ThirdwebProvider
       activeChain={activeChain}
-      clientId={"09c4e70f62deeb54f83478b51e5839ac"}
+      clientId={"81366635c2c56e28416b401433c32979"}
       chainId={1442}
       supportedChains={[activeChain]}
       autoConnect={false}
